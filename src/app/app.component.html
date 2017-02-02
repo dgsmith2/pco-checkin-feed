@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<md-list>
+  <md-list-item *ngFor="let group of groups" class="slide-left">
+    <h3 md-line> {{group.adult.first_name}} {{group.adult.last_name}} </h3>
+    <p md-line> {{getChildrenNames(group.children)}}</p>
+  </md-list-item>
+</md-list>

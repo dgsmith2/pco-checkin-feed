@@ -1,0 +1,9 @@
+{
+  "/check_ins": {
+    "target": "https://api.planningcenteronline.com",
+    "pathRewrite": {"^/api" : ""},
+    "changeOrigin": true,
+    "secure": false,
+    "auth": "APP_ID:TOKEN"
+  }
+}

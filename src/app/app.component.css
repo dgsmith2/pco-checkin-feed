@@ -1,0 +1,33 @@
+* {
+  line-height: 1.2em
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 1.17em;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 500;
+}
+
+md-list-item:not(:last-child) {
+  border-bottom: 1px solid #efefef;
+}
+
+@keyframes SlideLeft {
+  0% {
+    opacity: 0;
+    padding-left: 100px;
+  }
+  100% {
+    opacity: 1;
+    padding-left: 0;
+  }
+}
+
+.slide-left {
+  animation: SlideLeft 1s ease-out;
+}
